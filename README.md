@@ -1,8 +1,8 @@
-# Portfólio Dev – Wladimir Batista Castro
+# Portfólio Dev – Wladimir
 
 Este repositório contém um portfólio profissional desenvolvido em HTML e CSS puro, com foco em responsividade, organização visual e boas práticas de front-end. O objetivo é apresentar projetos, serviços e formas de contato de maneira clara, moderna e acessível.
 
-## Principais características
+## Principais características do projeto
 
 - **Site estático**: Não utiliza frameworks ou pré-processadores. Todo o código é HTML e CSS puro.
 - **Componentização por seções**: Estrutura dividida em seções (`intro`, `projects`, `services`, `contact`), facilitando manutenção e expansão.
