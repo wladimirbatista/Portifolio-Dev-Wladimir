@@ -1,12 +1,10 @@
-<<<<<<< HEAD
 # Portfólio Dev – Wladimir
 =======
 <p align="center">
-  <img alt="Logo - Rocketseat" src=".github/project_img.png" width="200px" />
+  <img alt="Logo - Rocketseat" src=".github/project_img.png" width="1000px" />
 </p>
 
 # Portfólio Dev – Wladimir
->>>>>>> bd7e2f9 (add image readme)
 
 Este repositório contém um portfólio profissional desenvolvido em HTML e CSS puro, com foco em responsividade, organização visual e boas práticas de front-end. O objetivo é apresentar projetos, serviços e formas de contato de maneira clara, moderna e acessível.
 
