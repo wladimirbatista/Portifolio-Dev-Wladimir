@@ -1,7 +1,7 @@
 # Portfólio Dev – Wladimir
 
 <p align="center">
-  <img alt="Logo - Rocketseat" src=".github/project_img.png" width="600px" />
+  <img alt="Logo - Rocketseat" src=".github/project_img.png" width="500px" />
 </p>
 
 ---
