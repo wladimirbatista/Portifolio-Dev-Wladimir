@@ -23,7 +23,7 @@ Este repositório contém um portfólio profissional desenvolvido em HTML e CSS 
 
 1. Clone este repositório:
    ```bash
-   git clone <url-do-repo>
+   git clone git@github.com:wladimirbatista/Portif-lio-Dev---Wladimir.git
    ```
 2. Abra o arquivo `index.html` diretamente no navegador
    - **Ou** utilize uma extensão como Live Server no VS Code para recarregamento automático
