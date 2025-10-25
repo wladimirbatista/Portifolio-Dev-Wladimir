@@ -1,0 +1,262 @@
+@import url(globals.css);
+
+/* Seção Intro */
+.intro {
+  min-height: 100vh;
+  padding: 60px 20px;
+  background-image: url(./assets/Background_Intro.png);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  i {
+    font-size: 32px;
+    color: var(--gray-300);
+  }
+}
+
+.container {
+  max-width: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 56px;
+  margin-bottom: 80px;
+  
+  figure {
+    border: 2px solid var(--red);
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+  }
+  
+  div {
+    span {
+      color: var(--red);
+    }
+    
+    h1 {
+      margin: 8px 0 20px;
+    }
+  }
+}
+
+.techs_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 94px;
+
+  div {
+    display: flex;
+    align-items: center;
+    background-color: var(--gray-400);
+    border-radius: 90px;
+    padding: 8px 16px;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--gray-200);
+  }
+
+  a:hover {
+    border: 2px solid var(--blue);
+  }
+}
+
+/* Seção Projetos */
+.projects {
+  min-height: 100vh;
+  padding: 72px 20px 144px;
+  background-color: var(--gray-500);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+
+  header {
+    text-align: center;
+
+    span {
+      color: var(--red);
+    }
+
+    h2 {
+      margin-top: 12px;
+    }
+  }
+}
+
+.projects_container {
+  max-width: 1040px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.cards {
+  flex: 1 1 300px;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: var(--gray-400);
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  a {
+    color: var(--blue);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: var(--purple);
+  }
+}
+
+.cards:hover {
+  border: 1px solid var(--gray-300);
+}
+
+/* Seção Serviços */
+.services {
+  background-color: var(--gray-600);
+  padding: 88px 20px 120px;
+
+  header {
+    text-align: center;
+    margin-bottom: 56px;
+
+    span {
+      color: var(--red);
+    }
+
+    h2 {
+      margin-top: 12px;
+    }
+  }
+}
+
+.services_container {
+  max-width: 888px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  div {
+    flex: 1 1 270px;
+    border: 1px solid var(--gray-500);
+    padding: 20px;
+    border-radius: 12px;
+
+    i {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      margin-bottom: 8px;
+    }
+  }
+
+  div:nth-child(1) i {
+    color: var(--purple);
+  }
+
+  div:nth-child(2) i {
+    color: var(--yellow);
+  }
+
+  div:nth-child(3) i {
+    color: var(--green);
+  }
+}
+
+/* Seção Contato */
+.contact {
+  background-image: url(./assets/Background_Contacts.png);
+  background-position: center;
+  background-size: cover;
+  padding: 128px 20px 200px;
+
+  header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  span {
+    color: var(--purple);
+  }
+
+  h2 {
+    margin: 8px 0; 
+  }
+}
+
+.links_container {
+  max-width: 400px;
+  margin: 0 auto;
+
+  display: grid;
+  gap: 16px;
+
+  a {
+    width: 100%;
+    background-color: var(--gray-400);
+    padding: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+
+    i:nth-child(1) {
+      font-size: 28px;
+      color: var(--gray-300);
+      margin-right: 12px;
+    }
+
+    i:nth-child(2) {
+      font-size: 20px;
+      color: var(--blue);
+    }
+  }
+
+  a:hover {
+    border: 1px solid var(--blue);
+
+    i:nth-child(1) {
+      color: var(--blue);
+    }
+  }
+}

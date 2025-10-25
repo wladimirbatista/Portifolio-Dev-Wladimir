@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Main colors */
+  --red: #e3646e;
+  --purple: #bb72e9;
+  --blue: #3996db;
+  --green: #82bc4f;
+  --yellow: #eabd5f;
+
+  /* Base colors */
+  --gray-100: #e2e4e9;
+  --gray-200: #c0c4ce;
+  --gray-300: #878ea1;
+  --gray-400: #292c34;
+  --gray-500: #16181d;
+  --gray-600: #0d0e11;
+}
+
+/* Font Asap usage specifications */
+.title_lg {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+.title_md {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+.title_sm {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+.title_lg,
+.title_md,
+.title_sm {
+  font-family: "Asap", sans-serif;
+  color: var(--gray-100);
+}
+
+/* Font Inconsolata usage specifications */
+.subtitle {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 120%;
+  font-family: "Inconsolata", monospace;
+  color: var(--gray-200);
+}
+
+/* Font Maven Pro usage specifications */
+.text_md {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 140%;
+  color: var(--gray-200);
+}
+
+.text_sm {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 140%;
+  color: var(--gray-300);
+}
+
+.text_md,
+.text_sm {
+  font-family: "Maven Pro", sans-serif;
+}
